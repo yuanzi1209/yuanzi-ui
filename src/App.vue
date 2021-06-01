@@ -1,13 +1,13 @@
 <template>
   yuanzi
-  <test></test>
+  <router-link to="/">test</router-link> |
+  <router-link to="/test2">test2</router-link>
+  <hr />
+  <router-view />
 </template>
 
-<script setup>
-import Test from './components/Test.vue'
-
-// This starter template is using Vue 3 experimental <script setup> SFCs
-// Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
+<script>
+export default {};
 </script>
 
 <style>

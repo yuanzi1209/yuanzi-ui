@@ -1,3 +1,3 @@
 <template>
-    <div>test</div>
+    <div>test 路由</div>
 </template>
